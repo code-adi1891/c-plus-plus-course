@@ -6,7 +6,7 @@ int fib (int n){
 if (n<2){
     return 1;
 }
-return fib (n-2)+fib (n-1);
+return fib (n-2) + fib (n-1);
 }
 /*fib (5)
 fib(4)+ fib(3)
@@ -35,7 +35,7 @@ int main(){
    int a ;
    cout<<"enter a number "<<endl;
    cin>>a;
-   //cout<<"the factorial of "<<a<<" is "<<factorial(a)<<endl;
-   cout<<"the term in fibonacci sequence at position "<<a<<" is "<<fib(a)<<endl;
+   cout<<"the factorial of "<<a<<" is "<<factorial(a)<<endl;
+//    cout<<"the term in fibonacci sequence at position "<<a<<" is "<<fib(a)<<endl;
     return 0;
 }
