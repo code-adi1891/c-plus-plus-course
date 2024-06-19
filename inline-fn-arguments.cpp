@@ -7,7 +7,7 @@ inline int product(int a, int b){
     the main function, depending on its optimization strategy.*/
 
 
-    // Not recommended to use below lines with inline functions
+    // Its not recommended to use below lines with inline functions
     // static int c=0; // This executes only once
     // c = c + 1; // Next time this function is run, the value of c will be retained
     return a*b;
