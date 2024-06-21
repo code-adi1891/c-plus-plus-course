@@ -2,7 +2,9 @@
 
 using namespace std;
 
-    typedef struct employee //typedef aur ep hata denge to zada likhna padega par program same he rahega
+    typedef struct employee //typedef ka kaam hai data type ka naam change karna. 
+    //in this case data type ka naam ep kar diya hai
+    //typedef aur ep hata denge to zada likhna padega par program same he rahega
     {
         int eId;
         char favchar;
