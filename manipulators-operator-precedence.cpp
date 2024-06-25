@@ -19,9 +19,9 @@ int main(){
     //shuru me he const declare kar dete hai taki galti se bhi change na ho paye
     //jaise uppar a aur c ki value change ho gayi hai waise ham b ki nahi kar payenge abb, usme error aayega
 
+   */
     const int b=3;
     cout<<"the value of b is "<<b<<endl;
-   */
    
 
    //**********************MANIPULATORS IN C++********************
