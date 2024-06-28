@@ -9,10 +9,10 @@ using namespace std;
 // structures had limitations:
 //      - all members were public
 //      - you cannot add methods in structures
-// classes --> structures(from c language) + more
+// classes --> structures (from c language) + more
 // classes --> can have methods and properties
 // classes --> can make few members as private & few as public
-// structures in C++ are typedefed( bina typedef lagaye bhi structure ke variable declare kar sakte hai)
+// structures in C++ are typedefed (bina typedef lagaye bhi structure ke variable declare kar sakte hai)
 // you can also declare objects along with the class declarion like this:
 /* class Employee{
             // Class definition
@@ -45,7 +45,7 @@ void Employee :: setData(int a1, int b1, int c1){//use scope resolution operator
 
 int main(){
     Employee harry;
-    harry.d=34;//since d and e are publick so we can directly assign a=84
+    harry.d=34;//since d and e are public so we can directly assign a=84
     //harry.a=89; -->this will throw error as 'a' is private
     harry.e=89;
     
