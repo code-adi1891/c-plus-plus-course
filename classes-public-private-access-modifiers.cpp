@@ -49,7 +49,7 @@ int main(){
     //harry.a=89; -->this will throw error as 'a' is private
     harry.e=89;
     
-    harry.setData(1,2,4);//but a1,b1,c1 are private therefore we have to write .setData
+    harry.setData(1,2,3);//but a1,b1,c1 are private therefore we have to write .setData
     harry.getData();
 
     return 0;
