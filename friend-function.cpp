@@ -18,6 +18,7 @@ class Complex
 {
     int a;
     int b;
+    //individually declaring functions as friends
     friend int Calculator ::sumRealComplex(Complex, Complex);
 
 public:
