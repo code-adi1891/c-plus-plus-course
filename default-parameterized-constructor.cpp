@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
-
+/* The values that are declared within a function when the function is called are known as an argument.
+The variables that are defined when the function is declared are known as parameters.*/
 
 class Complex
 {
