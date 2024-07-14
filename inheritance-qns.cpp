@@ -65,8 +65,8 @@ public:
 int main()
 {
     Result aditya;
-    aditya.set_roll_number();
-    aditya.set_marks();
+    aditya.set_roll_number(32);
+    aditya.set_marks(88,99);
     aditya.display_results();
     return 0;
 }
