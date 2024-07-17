@@ -1,14 +1,3 @@
-/*
-The inherited derived class will look something like this:
-Data members:
-    base1int --> protected
-    base2int --> protected
-
-Member functions:
-    set_base1int() --> public
-    set_base2int() --> public
-    set_show() --> public
-*/
 #include <iostream>
 
 using namespace std;
@@ -52,6 +41,17 @@ public:
         cout << "the sum of these vlaues is " << base2int + base1int << endl;
     }
 };
+/*
+The inherited derived class will look something like this:
+Data members:
+    base1int --> protected
+    base2int --> protected
+
+Member functions:
+    set_base1int() --> public
+    set_base2int() --> public
+    set_show() --> public
+*/
 int main()
 {
     derived harry;
