@@ -36,9 +36,9 @@ class derived : public Base1, public Base2
 public:
     void show()
     {
-        cout << "the value of Base1 is " << base1int << endl;
-        cout << "the value of Base2 is " << base2int << endl;
-        cout << "the sum of these vlaues is " << base2int + base1int << endl;
+        cout << "The value of Base1 is " << base1int << endl;
+        cout << "The value of Base2 is " << base2int << endl;
+        cout << "The sum of these vlaues is " << base2int + base1int << endl;
     }
 };
 /*
