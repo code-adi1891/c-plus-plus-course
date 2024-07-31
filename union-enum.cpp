@@ -3,7 +3,8 @@
 using namespace std;
 
 union money
-
+//same as structure, but provides better memory management because in structure we can set all the 
+//properties for an object but in union we can only set value for a single property/attributes.
 {
     int rice;
     char car;
