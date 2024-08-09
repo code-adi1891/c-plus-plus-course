@@ -16,9 +16,19 @@ class Complex{
 
 };
 int main(){
+    Complex c1;
+    /*  c1.setData(1,54);
+    c1.getData();   */
+    
+    /*  Complex *ptr =&c1;
+    (*ptr).setData(1, 54);
+    (*ptr).getData();   */
+
     Complex *ptr = new Complex;
-    (*ptr).setData(1, 54); is exactly same as
-    (*ptr).getData(); is as good as 
+    (*ptr).setData(10, 54); 
+    // /*is exactly same as*/ ptr->setData(1,54)
+
+    (*ptr).getData(); //is as good as 
 
     return 0;
 }
